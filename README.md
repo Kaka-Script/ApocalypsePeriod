@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         LaggTroops
-// @namespace    http://tampermonkey.net/
-// @version      V1
-// @description  Para a salvação, é necessário uma destruição.
-// @author       UnknownUser
-// @match        *.bloble.io/*
-// @grant        none
-// ==/UserScript==
 addEventListener("keydown", function(a) {
 if (a.keyCode==192){
 lag()
