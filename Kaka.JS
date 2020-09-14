@@ -1,5 +1,5 @@
 addEventListener("keydown", function(a) {
-if (a.keyCode==192){
+if (a.keyCode==17){
 lag()
 lag2()
 lag3()
